@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="regisCSS.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src ="reDemo.js"></script>
+    <title></title>
+  </head>
+  <body onload="document.registration.username.focus();">
+    <form name="registration" onSubmit="return formvalid();">
+
+
+    <div class="first-container">
+      <div class="head-container">
+        <img class="epamimage" src="images/epamimage.jpeg"  width="40px" height="30px">
+        <img class="signimg" src="images/signin.png"  width="70px" height="30px">
+        <button class="back"type="button" name="button">
+        <img class="back" src="images/back.png" width="30px" height="30px"></button>
+      </div>
+      <div class="low-container">
+
+
+          <input class="unameclass"type="text" name="username" placeholder="Full Name"/>
+          <div class="genderclass">
+            <label id = "gender">Gender:</label>
+            <input type="radio" name="mSex" value="Male"/><span>Male</span>
+            <input type="radio" name="fSex" value="Female"/><span>Female</span>
+          </div>
+          <div class="dobclass">
+          <label class="labelclass"for="dob">Date of Birth:</label>
+          <input class="dobclass1" type="date" name="dob" />
+          </div>
+          <input class="emailclass"type="email" name="email" placeholder="mail@example.com"/>
+          <input class="passclass" type="password" name="password" placeholder="Type password"/>
+          <input class="passclass" type="password" name="password1" placeholder="Re-Type password"/>
+          <input class="mobileclass" type="text" name="mobileno" placeholder="Enter your mobile number:"/>
+
+
+          <div class="buttonsclass">
+            <input class="submitbuttonclass" type="submit" name="submitbutton" value="submit">
+            <button class="cancelbuttonclass" type="button" name="cancelbutton" >CANCEL</button>
+            </div>
+      </div>
+
+    </div>
+
+</form>
+  </body>
+</html>

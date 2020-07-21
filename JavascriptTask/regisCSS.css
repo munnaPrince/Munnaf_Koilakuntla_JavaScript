@@ -1,0 +1,121 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.first-container{
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid grey;
+  background: #d5dcde;
+
+}
+.head-container{
+  width: 100%;
+  background-color: #6CE4E0;
+
+
+}
+
+
+
+.low-container{
+  width: 100%;
+  display: grid;
+  grid-column: auto;
+  padding: 20px 0px 20px;
+
+}
+.epamimage{
+  float: left;
+}
+.signimg{
+  margin-left: 33%;
+}
+.back{
+  float: right;
+  background-color: #6CE4E0;
+}
+
+.sign{
+  background-color: #6CE4E0;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.dobclass{
+  display: flex;
+  padding: 8px 8px 5px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.labelclass{
+  padding-top: 10px;
+}
+.emailclass, .passclass, .mobileclass, .unameclass, .dobclass1{
+  padding: 8px 8px 5px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  font-size: 16px;
+  border: 1px solid #979faf;
+
+}
+
+.buttonsclass{
+  padding: 8px 50px 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+ .genderclass{
+  padding: 8px 8px 5px 10px;
+  height: auto;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+  font-size: 16px;
+}
+.submitbuttonclass{
+  background: #6CE4E0;
+  margin-left: 10%;
+  margin-right: 15%;
+  padding: 2px 2px 2px;
+  height: 35px;
+  width: 75px;
+  border-radius: 5px;
+  font: bold 15px arial, sans-serif;
+}
+.cancelbuttonclass{
+  background: #6CE4E0;
+align-self: center;
+margin-left: 10%;
+height: 30px;
+width: 70px;
+border-radius: 5px;
+font: bold 15px arial, sans-serif;
+}
+
+
+@media only screen and (min-width:768px) {
+  .first-container{
+    width: 600px;
+    margin-top: 50px;
+  }
+
+}
+@media only screen and (min-width:1000px) {
+  .first-container{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 600px;
+  }
+
+}
